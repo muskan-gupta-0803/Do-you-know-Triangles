@@ -7,7 +7,7 @@ function calcArea(){
     h=height.value;
     b=base.value;
     area=(h*b)/2;
-    outputA.innerText="AREA OF TRIANGLE IS = " + area;
+    outputA.innerText="AREA OF TRIANGLE IS = " + area.toFixed(2);
 }
 
 

@@ -11,7 +11,7 @@ function calcHyp(){
 
     const lengthOfHypotenuse=Math.sqrt(sumOfSquares);
 
-    outputEl.innerText="The length of hypotenuse is = " + lengthOfHypotenuse;
+    outputEl.innerText="The length of hypotenuse is = " + lengthOfHypotenuse.toFixed(2);
 }
 
 hypotenuseBtn.addEventListener('click',calcHyp)
